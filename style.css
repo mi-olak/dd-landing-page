@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 5% 20%;
+  background-color: rgb(83, 89, 156);
+}
+.sectionA {
+  width: 70%;
+  padding: 0.2% 4%;
+  padding-left: 7%;
+}
+.nav ol {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30%;
+}
+.nav ol li {
+  width: 20%;
+  text-align: center;
+  font-size: 0.7rem;
+  list-style-type: none;
+  padding: 1%;
+}
+.nav ol li:last-child {
+  background-color: white;
+  border-radius: 50px;
+}
+.nav ol li a {
+  text-decoration: none;
+  color: black;
+}
+.title-head {
+    padding-top: 7%;
+}
+.title-head h2 {
+  font-size: 3rem;
+  padding: 1% 0%;
+}
+.sectionA h3 {
+  color: darkgrey;
+  font-size: 0.9rem;
+  margin: 2% 0%;
+}
+.sectionA input {
+  border-radius: 20px;
+  padding: 1% 5%;
+  margin: 2% 0%;
+}
+.sectionA p {
+  font-size: 0.6rem;
+  margin-right: 35%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+.sectionA h4 a {
+    color: white
+}
+.sectionA h4 {
+    margin-bottom: 15%;
+}
+.sectionA button {
+  padding: 1%;
+  cursor: pointer;
+  margin-left: 3%;
+}
+.sectionA button:hover {
+  background-color: black;
+  color: white;
+}
+.sectionB {
+  width: 30%;
+}
+.sectionB img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.img-secB {
+    padding: 25% 6%;
+}
+.sectionA h4 a:hover {
+  cursor: pointer;
+  color: black;
+}
+@media (max-width:770px) {
+  .nav {
+    display: none;
+  }
+  .main {
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .sectionA {
+    width: 100%;
+    text-align: center;
+  }
+  .sectionB {
+    width: 100%;
+  }
+  .img-secB {
+    padding: 7%;
+  }
+  .title-head {
+    text-align: center;
+  }
+  .sectionA h3 {
+    margin-bottom: 10%;
+  }
+  .sectionA input {
+    margin-bottom: 3%;
+  }
+  .sectionA p {
+    margin: 1% 10%;
+  }
+  .sectionA h4 {
+    margin: 10% 5%;
+  }
+  .sectionA h4 a:hover {
+    cursor: pointer;
+    color: black;
+  }
+  .sub-input {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+  }
+  .sub-input button {
+    margin: 3% 19%;
+  }
+  .sub-input button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
